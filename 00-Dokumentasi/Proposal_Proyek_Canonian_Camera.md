@@ -111,7 +111,7 @@ Membeli kamera digital secara online sering membuat pembeli ragu: spesifikasi te
 
 | Nama | NIM | Peran |
 |------|-----|-------|
-| Fauzan Azizi | 240504141 | Anggota 1 |
-| M Farhan Al Faiz | 240504135 | Anggota 2 |
-| Muhammad Rilky | 240504147 | Anggota 3 |
-| Rafi Nauval Abiyu | 250504024 | Anggota 4 |
+| Fauzan Azima | 250504109 | Ketua 1 |
+| M Ihsan Ramadhani | 240504101 | Anggota 2 |
+| Sherilda Ardianti | 250504027 | Anggota 3 |
+| M Fahri Faqih | 250504017 | Anggota 4 |
