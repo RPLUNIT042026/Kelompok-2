@@ -1,122 +1,124 @@
-<div align="center">
+::: {align="center"}
+# 📷 CANONIAN CAMERA
 
-<img src="./assets/header.svg" width="100%" alt="Tim Canonian Camera - Rekayasa Perangkat Lunak"/>
+### Tim Rekayasa Perangkat Lunak
 
-<br/>
+*"Software yang hebat lahir dari tim yang saling percaya."*
 
-<img src="./assets/logo.svg" width="200" alt="Logo Canonian Camera"/>
+`CANONIAN 400` · `36 EXP` · `ISO 400`
 
-### 📸 *"Software yang hebat lahir dari tim yang saling percaya."*
+------------------------------------------------------------------------
 
-</div>
+**04 Anggota**   ·   **06 Tahap SDLC**   ·   **96 Function Point**   ·  
+**15 User Story**
+:::
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+## 🎞️ FRAME 02 · PARA KRU
 
-<div align="center">
+Empat orang di balik lensa, satu tim untuk satu proyek.
 
-## 👥 Crew
+  Anggota         Nama                        NIM
+  --------------- --------------------------- -------------
+  **Anggota 1**   Muhammad Yuda Buana Ambia   `240504141`
+  **Anggota 2**   M Farhan Al Faiz            `240504135`
+  **Anggota 3**   Muhammad Rilky              `240504147`
+  **Anggota 4**   Rafi Nauval Abiyu           `250504024`
 
-<img src="./assets/Team.svg" width="100%" alt="Anggota tim Canonian Camera"/>
+## 🎛️ FRAME 03 · NILAI TIM
 
-</div>
+Tiga pengaturan yang kami jaga supaya hasilnya selalu tajam.
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+  -----------------------------------------------------------------------
+  Nilai                   Pengaturan Kamera       Prinsip
+  ----------------------- ----------------------- -----------------------
+  **Kolaborasi**          `f/2.8`                 Satu fokus, satu frame,
+                                                  dikerjakan bersama.
 
-<div align="center">
+  **Kreativitas**         `ISO`                   Sudut pandang baru
+                                                  untuk setiap fitur.
 
-## 🔆 Nilai Tim
+  **Konsistensi**         `1/125`                 Sprint rutin, hasil
+                                                  tajam sampai rilis.
+  -----------------------------------------------------------------------
 
-<img src="./assets/values.svg" width="100%" alt="Nilai tim: Kolaborasi, Kreativitas, Konsistensi"/>
+## 🎞️ FRAME 04 · ROLL FILM PROYEK
 
-</div>
+Enam frame siklus hidup pengembangan perangkat lunak (*Software
+Development Life Cycle* / SDLC).
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+   Frame  Tahap
+  ------- -----------------
+    01    📋 Perencanaan
+    02    🔎 Analisis
+    03    ✏️ Perancangan
+    04    💻 Implementasi
+    05    🧪 Pengujian
+    06    🔧 Pemeliharaan
 
-<div align="center">
+## 🧩 FRAME 05 · CABANG & RILIS
 
-## 🎞️ Tahapan Proyek
+Empat anggota, empat cabang, semuanya digabung ke `main` dan dirilis
+sebagai versi `v1.0`.
 
-Setiap proyek melewati enam frame siklus hidup pengembangan perangkat lunak (SDLC).
-
-<img src="./assets/sdlc.svg" width="100%" alt="Frame 1 sampai 6: alur SDLC"/>
-
-</div>
-
-<img src="./assets/divider.svg" width="100%" alt=""/>
-
-<div align="center">
-
-## 🌿 Alur Kerja Git
-
-Empat anggota, empat cabang, satu rilis: semua digabung ke `main` dan dirilis sebagai versi 1.0.
-
-</div>
-
-```mermaid
-gitGraph
-    commit id: "init"
-    branch yuda
-    branch farhan
-    branch rilky
-    branch rafi
-    checkout yuda
-    commit id: "fitur-yuda"
-    checkout farhan
-    commit id: "fitur-farhan"
-    checkout rilky
-    commit id: "fitur-rilky"
-    checkout rafi
-    commit id: "fitur-rafi"
-    checkout main
-    merge yuda
-    merge farhan
-    merge rilky
-    merge rafi
-    commit id: "v1.0" tag: "release"
+``` mermaid
+flowchart LR
+    Y["branch: yuda"] --> M["main"]
+    F["branch: farhan"] --> M
+    R["branch: rilky"] --> M
+    A["branch: rafi"] --> M
+    M --> V["Release v1.0"]
 ```
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+## 🎒 FRAME 06 · TAS KAMERA
 
-<div align="center">
+Perlengkapan teknologi yang kami bawa untuk proyek ini.
 
-## 🎒 Perlengkapan (Tech Stack)
+  Teknologi                   Kegunaan
+  --------------------------- -----------------
+  **Flask**                   Backend
+  **SQLite**                  Database
+  **HTML, CSS, JavaScript**   Frontend
+  **Three.js**                Digital twin 3D
+  **Git & GitHub**            Version control
+  **Figma**                   Wireframe
+  **Mermaid**                 Diagram
+  **Midtrans**                Payment sandbox
 
-<img src="./assets/tech.svg" width="100%" alt="Tech stack"/>
+## ✉️ FRAME 07 · SURAT MISI
 
-</div>
+> **Tim Canonian Camera** terdiri dari empat anggota dengan satu misi
+> utama: menyelesaikan tugas Rekayasa Perangkat Lunak sebelum deadline
+> menyerang.
+>
+> Kami mempelajari cara merancang, membangun, dan mengelola perangkat
+> lunak secara terstruktur. Modal kami sederhana: kerja sama tim,
+> koneksi internet, dan kalimat sakral "tenang, masih ada waktu."
+>
+> *--- Tim Canonian Camera*
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+## 🖼️ FRAME 08 · DAFTAR CETAK
 
-<div align="center">
+Hasil kerja yang sedang kami kembangkan.
 
-## 📜 Misi Kami
+  -----------------------------------------------------------------------
+  Proyek                              Deskripsi
+  ----------------------------------- -----------------------------------
+  **Canonian Camera**                 Aplikasi web toko kamera digital
+                                      berbasis digital twin: model 3D,
+                                      simulasi ISO, aperture, dan shutter
+                                      speed.
 
-**Tim Canonian Camera** terdiri dari empat anggota dengan satu misi: menyelesaikan tugas Rekayasa Perangkat Lunak sebelum deadline tiba.
+  **Function Point & Backlog**        Estimasi ukuran aplikasi (96 FP)
+                                      dan 15 user story.
 
-Kami mempelajari cara merancang, membangun, dan mengelola perangkat lunak secara terstruktur. Modal kami sederhana: kerja sama tim, koneksi internet, dan kalimat sakral “tenang, masih ada waktu.”
+  **Arsitektur Sistem**               Diagram arsitektur, alur
+                                      komunikasi, dan rancangan database.
+  -----------------------------------------------------------------------
 
-</div>
+------------------------------------------------------------------------
 
-<p align="center">
-  <a href="./docs/Proposal_Proyek_Canonian_Camera.md">
-    <img src="https://img.shields.io/badge/BUKA%20DOKUMEN%20▶-PROPOSAL%20PROYEK%20CANONIAN%20CAMERA-FFB000?style=for-the-badge&logo=googlephotos&logoColor=0B0D12&labelColor=0B0D12" alt="Proposal Proyek Canonian Camera">
-  </a>
-</p>
+::: {align="center"}
+`▸ 36 / 36` · **END OF ROLL** · `◂ 36A`
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
-
-<div align="center">
-
-## 🏆 Proyek Kami
-
-| Proyek | Deskripsi | Dokumen |
-|:---|:---|:---:|
-| Canonian Camera | Aplikasi web toko kamera digital berbasis digital twin | [Proposal](./docs/Proposal_Proyek_Canonian_Camera.md) |
-| Function Point & Backlog | Estimasi ukuran aplikasi dan daftar user story | [Buka](./docs/Function_Point_Canonian_Camera.md) |
-| Arsitektur Sistem | Diagram arsitektur, alur komunikasi, dan ERD | [Buka](./docs/Arsitektur_Sistem_Canonian_Camera.md) |
-
-</div>
-
-<br/>
-
-<img src="./assets/footer.svg" width="100%" alt="Kamera berkedip di akhir halaman"/>
+**© TIM CANONIAN CAMERA · REKAYASA PERANGKAT LUNAK**
+:::
