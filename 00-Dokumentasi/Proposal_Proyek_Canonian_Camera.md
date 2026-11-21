@@ -111,7 +111,7 @@ Membeli kamera digital secara online sering membuat pembeli ragu: spesifikasi te
 
 | Nama | NIM | Peran |
 |------|-----|-------|
-| Muhammad Yuda Buana Ambia | 240504141 | Anggota 1 |
+| Fauzan Azizi | 240504141 | Anggota 1 |
 | M Farhan Al Faiz | 240504135 | Anggota 2 |
 | Muhammad Rilky | 240504147 | Anggota 3 |
 | Rafi Nauval Abiyu | 250504024 | Anggota 4 |
